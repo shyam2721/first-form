@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Form</title>
+</head>
+<body>
+    <h1>My First Form</h1>
+    <form action="/submit" method="post">
+        <table cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>INPUT</th>
+                    <th>VALUE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Enter Your Name" autofocus ></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Enter Your Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Enter Your Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Phone Number</label></td>
+                    <td><input type="tel" id="tel" name="tel" min="1000000000" max="9999999999" placeholder="Enter Your Phone Number" ></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date</label></td>
+                    <td><input type="date" name="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="time">Time</label></td>
+                    <td><input type="time" name="time" id="time"></td>
+                </tr>
+                <tr>
+                    <td><label for="color">Color</label></td>
+                    <td><input type="color" name="color" id="color"></td>
+                </tr>
+                <tr>
+                    <td><label for="range">Range</label></td>
+                    <td><input type="range" name="range" id="range" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <td><label for="url">URL</label></td>
+                    <td><input type="url" name="url" id="url" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="search">Search</label></td>
+                    <td><input type="search" name="search" id="search" value="SHLOK SIR IS AWESOME" readonly ></td>
+                </tr>
+                <tr>
+                    <td><label for="radio">Radio</label></td>
+                    <td><input type="radio" name="radio" id="radio">
+                        <input type="radio" name="radio" id="radio">
+                        <input type="radio" name="radio" id="radio">
+                        <input type="radio" name="radio" id="radio">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="checkbox">Checkbox</label></td>
+                    <td><input type="checkbox" name="checkbox1" id="checkbox">
+                        <input type="checkbox" name="checkbox2" id="checkbox">
+                        <input type="checkbox" name="checkbox3" id="checkbox">
+                        <input type="checkbox" name="checkbox4" id="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="select">Select</label>
+                    </td>
+                    <td>
+                        <select name="select" id="select">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="file">File</label></td>
+                    <td><input type="file" name="file" id="file"></td>
+                </tr>
+                <tr>
+                    <td><label for="submit">Submit</label></td>
+                    <td><input type="submit" name="submit" id="submit"></td>
+                </tr>
+                <tr>
+                    <td><label for="reset">Reset</label></td>
+                    <td><input type="reset" name="reset" id="reset"></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </form>
+</body>
+</html>
